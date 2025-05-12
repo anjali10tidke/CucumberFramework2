@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/Features",
         glue = "com.vtiger.stepdefinations",
         dryRun = false,
-        tags = "@lead",
+        tags = "@API",
         plugin = {
         "pretty",
         "html:target/cucumber-reports.html",    // HTML report
